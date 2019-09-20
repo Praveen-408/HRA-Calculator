@@ -13,4 +13,5 @@ export class HRARule2
     applyRule(actualRentPaid : number, basicPlusDA : number) : number {
         return actualRentPaid - (basicPlusDA * this.percentOnBasic / 100);
     }
+    
 }

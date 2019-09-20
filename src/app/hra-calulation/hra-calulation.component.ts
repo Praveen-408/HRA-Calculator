@@ -11,8 +11,7 @@ export class HRACalulationComponent implements OnInit {
 
   HRACalculator : FormGroup;
   deductedHRA : number;
-  HRADeductionCalulator : HRADeductionCalulator
-
+  HRADeductionCalulator : HRADeductionCalulator;
 
   constructor(private fb : FormBuilder) {
     this.initialiseFormFields();
@@ -41,9 +40,5 @@ export class HRACalulationComponent implements OnInit {
       taxableHRA : this.HRACalculator.get('HRAReceived').value - this.deductedHRA
     }); 
   }
-
-
-
-
 
 }

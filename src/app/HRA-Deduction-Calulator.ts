@@ -1,6 +1,6 @@
 import { FormGroup } from '@angular/forms';
-import { HRARule1 } from './Models/HRARule1';
-import { HRARule2 } from './Models/HRARule2';
+import { HRARule1 } from './HRA Rules/HRARule1';
+import { HRARule2 } from './HRA Rules/HRARule2';
 
 export class HRADeductionCalulator
 {
