@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+.font{
+    font-family : Arial;
+    font-size : 16px;
+}
+
+input{
+    text-align : right !important;
+}
+
+button{
+    cursor : pointer;
+}

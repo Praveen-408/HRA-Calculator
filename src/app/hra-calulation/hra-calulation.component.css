@@ -1,0 +1,15 @@
+.even-bg {
+    background-color  : #e1e1e1;
+}
+
+.dsbldinpt {
+    background : #e0e0e0;
+    color : #333 !important;
+    font-weight : bold !important;
+}
+
+.checkboxlabel {
+    max-width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+}
